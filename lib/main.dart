@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:letstalk/pages/chart_page.dart';
 import 'package:letstalk/pages/home.dart';
 import 'package:letstalk/pages/onboarding.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Home(),
+      home: ChartPage(),
     );
   }
 }
